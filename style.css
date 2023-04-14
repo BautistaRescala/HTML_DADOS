@@ -1,0 +1,94 @@
+*{
+    background-color: #fc7f03;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.dado{
+  background-color: black;
+  display: flex;
+  width: 140px;
+  height: 140px;
+  padding: 10px;
+  margin: 1em;
+}
+
+.punto {
+    width: 20px;
+    height: 20px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+
+.columna{
+    display:flex;
+    background-color: black;
+    flex-wrap: flex;
+    flex-direction: column;
+}
+
+.dado1{
+    justify-content: center;
+}
+
+.dado1 .punto1{
+    align-self: center;
+
+}
+
+.dado2{
+    justify-content: space-between;
+}
+
+.dado2 .punto2{
+    align-self: flex-end;
+}
+
+.dado3{
+    justify-content: space-between;
+}
+
+.dado3 .punto2{
+    align-self: center;
+}
+
+.dado3 .punto3{
+    align-self: flex-end;   
+}
+
+.dado4{
+    justify-content: space-between;
+}
+
+.dado4 .columna{
+    justify-content: space-between;   
+}
+
+.dado5{
+    justify-content: space-between;
+}
+
+.dado5 .columna1{
+    justify-content: space-between;
+}
+
+.dado5 .columna3{
+    justify-content: space-between;
+}
+
+.dado5 .columna2{
+    justify-content: center;
+}
+
+.dado6{
+    justify-content: space-between;
+}
+
+.dado6 .columna{
+    justify-content: space-between;
+}
